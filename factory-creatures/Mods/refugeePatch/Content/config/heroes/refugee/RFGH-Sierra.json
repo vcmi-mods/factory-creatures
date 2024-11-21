@@ -1,0 +1,32 @@
+{
+	"refugee-town:rfghSierra" :{
+		"class" :				"rfghcEnchanterF",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-rfgcRogue-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-rfgcRogue-large.png",
+			"small" : 			"heroes/portraits/RFGH-Sierra-small.png",
+			"large" : 			"heroes/portraits/RFGH-Sierra-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	}],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"wisdom" },
+				{ "level" :		"basic",	"skill" :	"diplomacy" }],
+		
+		"spellbook" :		["haste"],
+		"specialty" :{		"creature" : "rfgcRogue"},
+
+		"texts":{
+			"name" :			"Sierra",
+			"biography" :		"Sierra believes that strength lies in alliances between each individual. She is known to travel from battlefields, tirelessly seeking out allies to join the cause. Her charismatic presence inspires others to embrace her kingdom, uniting diverse individuals under the banner of hope and unity.",
+			"specialty" :{
+				"name" :		"Rogue",
+				"tooltip" :		"Increases the Attack and Defense skills of any Rogue or Spy for each level attained after 5th level.",
+				"description" :	"{Rogue}\r\n\r\nIncreases the Attack and Defense skills of any Rogue or Spy for each level attained after 5th level."
+		}}
+	}
+}

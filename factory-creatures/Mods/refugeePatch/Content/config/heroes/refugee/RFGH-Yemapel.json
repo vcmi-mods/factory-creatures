@@ -1,0 +1,40 @@
+{
+	"refugee-town:rfghYemapel" :{
+		"class" :				"rfghcWandererM",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-armorer-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-armorer-large.png",
+			"small" : 			"heroes/portraits/RFGH-Yemapel-small.png",
+			"large" : 			"heroes/portraits/RFGH-Yemapel-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"armorer" }],
+
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"subtype" :				"damageTypeAll",
+					"targetSourceType" :	"SECONDARY_SKILL",
+					"type" :				"GENERAL_DAMAGE_REDUCTION",
+					"val" :					5,
+					"valueType" :			"PERCENT_TO_BASE",
+					"updater" :				"TIMES_HERO_LEVEL"
+		}}},
+
+		"texts":{
+			"name" :			"Yemapel",
+			"biography" :		"Native to Krewlord, little is known about Yemapel except for his impressive talents in military matters.",
+			"specialty" :{
+				"name" :		"Armorer",
+				"tooltip" :		"speciality bonus: Armorer",
+				"description" :	"{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill."
+		}}
+	}
+}

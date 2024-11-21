@@ -1,0 +1,32 @@
+{
+	"refugee-town:rfghMithra" :{
+		"class" :				"rfghcEnchanterF",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-rfgcEnch-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-rfgcEnch-large.png",
+			"small" : 			"heroes/portraits/RFGH-Mithra-small.png",
+			"large" : 			"heroes/portraits/RFGH-Mithra-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"wisdom" },
+				{ "level" :		"basic",	"skill" :	"intelligence" }],
+
+		"spellbook" :[	"weakness" ],
+		"specialty" :{	"creature" : "rfgcThaumaturge"	},
+
+		"texts":{
+			"name" :			"Mithra",
+			"biography" :		"Hidden in woods near the land of Deyja, Mithra combines cunning and sorcery to outmaneuver her foes. Her skills in espionage and manipulation make her a formidable asset to Refuge, striking from the shadows with deadly precision.",
+			"specialty" :{
+				"name" :		"Enchanter",
+				"tooltip" :		"Specialty bonus: Enchanter",
+				"description" :	"{Enchanter}\r\n\r\nIncreases the Attack and Defense skills of any Enchanters for each level attained after 5th level."
+		}}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"name" : "Refuge compatibility for Unofficial Factory",
+	"description" : "Changes some things from Refuge mod",
+	"modType" : "Compatibility",
+	"author" : "Olegmods.INC",
+	"contact" : "http://vcmi.eu/",
+	"licenseName" : "CC-BY-SA-NC",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa-nc/4.0/deed",
+	"version" : "1.0.0",
+	"depends" : [ "factory-creatures.factory", "refugee-town", "refugee-town.hota"
+	//"factory-creatures.factory", "factory-creatures.hotaComparatibilityPatch"
+	],
+	
+	
+	"creatures" :
+	[
+		"config/creatures/refugee/rfgcRogue.json",
+		"config/creatures/refugee/rfgcl2l.json"
+	],
+	"factions" :
+	[
+		"config/town/refugee/town.json"
+	],
+	"objects" :
+	[
+		"config/town/refugee/dwellings.json"
+	],
+
+	"heroes" :[
+		"config/heroes/refugee/RFGH-Leyla.json",
+		"config/heroes/refugee/RFGH-Niusha.json",
+		"config/heroes/refugee/RFGH-Kiana.json",
+		"config/heroes/refugee/RFGH-Soraya.json",
+		"config/heroes/refugee/RFGH-Shayan.json",
+		"config/heroes/refugee/RFGH-Yemapel.json",
+		"config/heroes/refugee/RFGH-Mithra.json",
+		"config/heroes/refugee/RFGH-Aran.json",
+		"config/heroes/refugee/RFGH-Sierra.json",
+		"config/heroes/refugee/RFGH-Aria.json",
+		"config/heroes/refugee/RFGH-Azar.json",
+		"config/heroes/refugee/RFGH-Keyvan.json",
+		"config/heroes/refugee/RFGH-Bhemnesh.json"
+	]
+}

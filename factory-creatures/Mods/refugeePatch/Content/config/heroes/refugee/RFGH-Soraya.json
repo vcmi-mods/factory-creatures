@@ -1,0 +1,40 @@
+{
+	"refugee-town:rfghSoraya" :{
+		"class" :				"rfghcWandererF",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-logistic-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-logistic-large.png",
+			"small" : 			"heroes/portraits/RFGH-Soraya-small.png",
+			"large" : 			"heroes/portraits/RFGH-Soraya-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"pathfinding" }],
+
+		"specialty" :{
+			"bonuses" :{
+				"logistics" :{
+					"subtype" : 			"heroMovementLand",
+					"targetSourceType" :	"SECONDARY_SKILL",
+					"type" :				"MOVEMENT",
+					"val" :					5,
+					"valueType" :			"PERCENT_TO_TARGET_TYPE",
+					"updater" :				"TIMES_HERO_LEVEL"
+		}}},
+
+		"texts":{
+			"name" :			"Soraya",
+			"biography" :		"Known as the queen of Logistics inside Refuge, Soraya leads her kingdom’s nomadic tribes with unparalleled skill and foresight. With Soraya at the helm, her people move with efficiency, ready to face any challenge that lies ahead.",
+			"specialty" :{
+				"name" :		"Logistics",
+				"tooltip" :		"speciality : Logistics",
+				"description" :	"{Logistics}\r\n\r\nReceives a 5% per level bonus to Logistics skill percentage."
+		}}
+	}
+}

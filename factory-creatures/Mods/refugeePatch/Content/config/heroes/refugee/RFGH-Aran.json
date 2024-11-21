@@ -1,0 +1,38 @@
+{
+	"refugee-town:rfghAran" :{
+		"class" :				"rfghcEnchanterF",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-icebolt-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-icebolt-large.png",
+			"small" : 			"heroes/portraits/RFGH-Aran-small.png",
+			"large" : 			"heroes/portraits/RFGH-Aran-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"wisdom" },
+				{ "level" :		"basic",	"skill" :	"waterMagic" }],
+
+		"spellbook" :			["iceBolt"],
+		"specialty" :{
+			"bonuses" :{
+				"iceBolt" :{
+					"subtype" :	"spell.iceBolt",
+					"type" :	"SPECIAL_SPELL_LEV",
+					"updater" :	"TIMES_HERO_LEVEL",
+					"val" : 	3}}},
+
+		"texts":{
+			"name" :			"Aran",
+			"biography" :		"Through her gentle demeanor and steadfast support, Aran fosters a sense of belonging among its inhabitants. Yet beneath her gentle exterior lies a steely resolve; Aran is not one to shy away from wielding her power to crush the enemies of her people, ensuring the safety and prosperity of those under her care.",
+			"specialty" :{
+				"name" :		"Ice Bolt",
+				"tooltip" :		"Casts Ice Bolt with increased effect, based on hero level compared to the level of target unit.",
+				"description" :	"{Ice Bolt}\r\n\r\nCasts Cure with increased effect, based on hero level compared to the level of target unit."
+		}}
+	}
+}

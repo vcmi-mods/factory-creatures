@@ -6,9 +6,10 @@
 	"licenseURL" : "https://creativecommons.org/licenses/by-nc-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Factory HotA Creatures",
-	"version" : "2.0.4",	
+	"version" : "2.0.5",	
 	"changelog" : 
 	{
+		"2.0.5": [ "Refuge compatibility." ],
 		"2.0.4": [ "Submod fix. Commander new portrait." ],
 		"2.0.3": [ "Updated description." ],
 		"2.0.2": [ "Commander fix" ],
@@ -71,7 +72,6 @@
 	],
 	"conflicts" :
 	[
-		"refugee-town",
 		"hota.factory",
 		"ab-bad-ending-assets"
 	]

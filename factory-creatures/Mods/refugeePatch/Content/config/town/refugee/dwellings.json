@@ -1,0 +1,7 @@
+{"core:creatureGeneratorCommon" :{
+	"types" : {
+		"rfgDwelling2" :{			"name" :	"Rogue's Cavern",		"creatures" :	[[ "rfgcRogue" ]],
+			"sounds"	:{			"ambient":	["LOOPDEN.wav"]},
+			"templates" :{
+				"default" :{		"animation":"adventure-map/RFGD2",	"mask" :		["VVV","VBB","BBA" ]}}}
+}}}

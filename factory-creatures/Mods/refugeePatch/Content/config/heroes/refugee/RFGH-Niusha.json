@@ -1,0 +1,40 @@
+{
+	"refugee-town:rfghNiusha" :{
+		"class" :				"rfghcWandererF",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-offence-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-offence-large.png",
+			"small" : 			"heroes/portraits/RFGH-Niusha-small.png",
+			"large" : 			"heroes/portraits/RFGH-Niusha-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"offence" }],
+
+		"specialty" :{
+			"bonuses" :{
+				"offence" :{
+					"subtype" :				"damageTypeMelee",
+					"targetSourceType" :	"SECONDARY_SKILL",
+					"type" : 				"PERCENTAGE_DAMAGE_BOOST",
+					"val" :					5,
+					"valueType" : 			"PERCENT_TO_BASE",
+					"updater" :				"TIMES_HERO_LEVEL"
+		}}},
+
+		"texts":{
+			"name" :			"Niusha",
+			"biography" :		"Niusha’s childhood was marked by the chains of slavery until the hand of King Shayan granted her freedom. Since then, she has served as a loyal and formidable warrior of Refuge, her loyalty matched only by her prowess in battle. With her past fueling her determination, she stands as a beacon of resilience and strength, a testament to the indomitable spirit of the freed.",
+			"specialty" :{
+				"name" :		"Offence",
+				"tooltip" :		"speciality : Offence",
+				"description" :	"{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill."
+		}}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"refugee-town:rfghKiana" :{
+		"class" :				"rfghcWandererF",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-resistance-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-resistance-large.png",
+			"small" : 			"heroes/portraits/RFGH-Kiana-small.png",
+			"large" : 			"heroes/portraits/RFGH-Kiana-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"resistance" }],
+
+		"specialty":{
+			"bonuses" :{
+				"resistance" : {
+					"targetSourceType":	"SECONDARY_SKILL",
+					"type" :			"MAGIC_RESISTANCE",
+					"val" :				5,
+					"valueType" :		"PERCENT_TO_BASE",
+					"updater" :			"TIMES_HERO_LEVEL"
+		}}},
+
+		"texts":{
+			"name" :			"Kiana",
+			"biography" :		"Kiana's unwavering determination have made her a stalwart defender of Refuge against the darkest sorceries. She shields her allies from harm, ensuring that no enchantment can sway their resolve. However, her tyrannic attitude often leaded her to get into troubles.",
+			"specialty" :{
+				"name" :		"Resistance",
+				"tooltip" :		"Bonus: Resistance",
+				"description" : "{Resistance}\r\n\r\nReceives a 5% per level bonus to Resistance skill percentage."
+		}}
+	}
+}

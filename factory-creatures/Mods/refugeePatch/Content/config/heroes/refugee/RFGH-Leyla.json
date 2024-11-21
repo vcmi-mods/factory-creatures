@@ -1,0 +1,37 @@
+{
+	"refugee-town:rfghLeyla" :{
+		"class" :				"rfghcWandererF",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-slayer-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-slayer-large.png",
+			"small" : 			"heroes/portraits/RFGH-Leyla-small.png",
+			"large" : 			"heroes/portraits/RFGH-Leyla-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"tactics" }],
+
+		"specialty" : {
+			"bonuses" :{
+				"battleSpell":{
+					"type":			"OPENING_BATTLE_SPELL",
+					"subtype":		"spell.slayer",
+					"val":			2
+		}}},
+
+		"texts":{
+			"name" :			"Leyla",
+			"biography" :		"Leyla’s heart burns with an unquenchable hatred for dragons, born from the tragic loss of her family to these fearsome beasts. Her journey has been a relentless pursuit of vengeance against the creatures that brought ruin to her homeland. She seeks to bring justice to those who prey upon the innocent.",
+			"specialty" :{
+				"name" :		"Slayer",
+				"tooltip" :		"Enchant army with Slayer at the start of the battle for 1 turn.",
+				"description" : "{Slayer}\r\n\r\nEnchant army with Slayer at the start of the battle for 1 turn."
+		}}
+	}
+}

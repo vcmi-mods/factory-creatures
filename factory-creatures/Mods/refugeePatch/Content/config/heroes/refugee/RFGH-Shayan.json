@@ -1,0 +1,37 @@
+{
+	"refugee-town:rfghShayan" :{
+		"class" :				"rfghcWandererM",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-rfgcMotleyArmy-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-rfgcMotleyArmy-large.png",
+			"small" : 			"heroes/portraits/RFGH-Shayan-small.png",
+			"large" : 			"heroes/portraits/RFGH-Shayan-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcVagabond",		"min":	4,	"max" :	6	}],
+
+		"skills" :[{
+				  "level" :		"advanced",	"skill":	"diplomacy" }],
+
+		"specialty":{
+			"bonuses" :{
+				"selfMorale":{
+					"type" :		"MORALE",
+					"val" : 		0,
+					"valueType" : 	"INDEPENDENT_MAX"}
+//					"limiters" :[	"TEAM_PROPAGATOR" ]}
+		}},
+					
+		"texts":{
+			"name" :			"Shayan",
+			"biography" :		"In the crucible of conflict, bereft of his throne and people, Shayan’s spirit remained unbroken. Fueled by a solemn vow to forge a new sanctuary for the left behind, he united others by his vision. Thus, Refuge blossomed into a beacon of hope, embodying the resilience and unity of those who refused to yield to the ravages of despair.",
+			"specialty" :{
+				"name" :		"Motley Army",
+				"tooltip" :		"Specialty bonus: Motley Army",
+				"description" : "{Motley Army}\r\n\r\nAll creatures are unaffected by negative morale."
+		}}
+	}
+}

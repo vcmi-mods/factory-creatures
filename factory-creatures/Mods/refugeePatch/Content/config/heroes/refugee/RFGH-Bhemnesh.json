@@ -1,0 +1,37 @@
+{
+	"refugee-town:rfghBhemnesh" :{
+		"class" :				"rfghcEnchanterM",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"heroes/specs/spec-rfgNecrolem-small.png",
+			"specialtyLarge" :	"heroes/specs/spec-rfgNecrolem-large.png",
+			"small" : 			"heroes/portraits/RFGH-Bhemnesh-small.png",
+			"large" : 			"heroes/portraits/RFGH-Bhemnesh-big.png"},
+
+		"army" :[
+				{ "creature":	"rfgcOvercomer",	"min":	20,	"max" :	30	},
+				{ "creature":	"rfgcRogue",			"min":	5,	"max" :	7	},
+				{ "creature":	"rfgcFleshGolem", 	"min":	5,	"max" :	7	}],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"necromancy" },
+				{ "level" :		"basic",	"skill" :	"earthMagic" }],
+
+		"spellbook" :[ 			"rfgsAmad"],
+		"specialty" : {
+//			"creature" :		"rfgcFleshGolem",
+			"bonuses" :{
+				"necrolem":{
+					"type" :	"IMPROVED_NECROMANCY",
+					"subtype" :	"creature.rfgcFleshGolem"}}},
+
+		"texts":{
+			"name" :			"Bhemnesh",
+			"biography" :		"Drawn to the arcane mysteries of necromancy and the intricacies of golem craftsmanship, Bhemnesh dedicates his life to unraveling the secrets that bind life and death with an insatiable curiosity and keen intellect.",
+			"specialty" :{
+				"name" :		"Necrolem",
+				"tooltip" :		"speciality : Necrolem",
+				"description" :"{Necrolem}\r\n\r\nRaises killed enemy creatures into Flesh Golems."
+		}}
+	}
+}
