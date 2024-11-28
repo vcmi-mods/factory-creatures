@@ -9,7 +9,7 @@
 		"school":
 		{
 			"air": false,
-			"earth": true,
+			"earth": false,
 			"fire": false,
 			"water": false
 		},
