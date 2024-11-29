@@ -6,10 +6,10 @@
 	"licenseURL" : "https://creativecommons.org/licenses/by-nc-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Factory HotA Creatures",
-	"version" : "2.0.5f",	
+	"version" : "2.0.5g",	
 	"changelog" : 
 	{
-		"2.0.5f": [ "Repair fixed." ],
+		"2.0.5g": [ "Repair fixed." ],
 		"2.0.5": [ "Refuge compatibility." ],
 		"2.0.4": [ "Submod fix. Commander new portrait." ],
 		"2.0.3": [ "Updated description." ],
