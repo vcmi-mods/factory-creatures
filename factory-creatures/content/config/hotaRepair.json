@@ -54,7 +54,7 @@
 						"type":"core:heal",
 						"healLevel":"resurrect",
 						"healPower":"oneBattle",
-						"minFullUnits" : 1,
+						"minFullUnits" : 0,
 						"val" : 30,
 					},
 					"cure":{
