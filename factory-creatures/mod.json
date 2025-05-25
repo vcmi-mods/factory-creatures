@@ -74,6 +74,13 @@
 		"translations" : [
 			"translation/unofficialfactory/polish.json"
 		]
+	},
+	"russian" : {
+		"name" : "Неофициальная Фабрика",
+		"description" : "Мод с существами из хотовской Фабрики. Также включает город, который является иным видением Фабрики.",
+		"translations" : [
+			"translation/unofficialfactory/russian.json"
+		]
 	},		
 	"creatures" :
 	[
