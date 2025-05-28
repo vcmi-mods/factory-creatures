@@ -6,9 +6,10 @@
 	"licenseURL" : "https://creativecommons.org/licenses/by-nc-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Factory HotA Creatures",
-	"version" : "2.2.1",	
+	"version" : "2.3.0",	
 	"changelog" : 
 	{
+		"2.3.0":  [ "Changed visuals of Rogue Cavern. Added almost full Russian translation." ],
 		"2.2.1":  [ "HotA-related bug fix" ],
 		"2.2.0":  [ "Submod system fixes, added alternate music submod by avatar and AI Udio" ],
 		"2.1.9":  [ "Wiki submod added" ],
@@ -77,7 +78,7 @@
 	},
 	"russian" : {
 		"name" : "Неофициальная Фабрика",
-		"description" : "Мод с существами из хотовской Фабрики. Также включает город, который является иным видением Фабрики.",
+		"description": "<h1 style='color:#002366; font-size:28px; font-weight:bold;'>Factory HotA Creatures</h1><p style='font-size:16px; color:#333333; font-style:italic;'> Встречайте новых существ из популярного мода для <i>Героев Меча и Магии III</i>, <i>Horn of the Abyss</i> (HotA). </p><p style='font-size:18px; color:#002366; font-weight:bold;'>Добавление нового контента</p><p style='font-size:16px; color:#333333;'> Factory HotA Creatures представляет новый контент, включая существ из Фабрики с характеристиками, которые у них были до релиза, новый неофициальный город Фабрика с некоторыми вещами, которые отличаются от HotA. <span style='color:#002366; font-weight:bold;'>Factory HotA Creatures</span> для VCMI позволяет игрокам использовать существ без самого города в версии 1.5.7 и добавляет возможность играть в новый город, Unofficial Factory, который использует много контента, созданного сообществом моддеров. </p><p style='font-size:18px; color:#990000; font-weight:bold;'>Дисклеймер</p><p style='color:#333333; font-size:15px;'> Хотя мод добавляет Factory town и его существ, он отличается от официального HotA и порта Ben Yan. Если вы хотите играть в оригинальный Factory town, я предлагаю вам использовать порт Ben Yan. Мод сильно отличается от официального Factory. Большинство характеристик взяты из информации вики до релиза, есть два существа третьего улучшения и альтернативное существо. Также вы можете построить второй уровень 2 дом, чтобы нанимать Разбойников, которые делят свой рост с ростом Механиков. </p>",
 		"translations" : [
 			"translation/unofficialfactory/russian.json"
 		]
