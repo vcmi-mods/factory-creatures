@@ -6,9 +6,10 @@
 	"licenseURL" : "https://creativecommons.org/licenses/by-nc-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Factory HotA Creatures",
-	"version" : "2.3.1",	
+	"version" : "2.3.2",	
 	"changelog" : 
 	{
+		"2.3.2":  [ "Bank fix" ],
 		"2.3.1":  [ "Translation fix." ],
 		"2.3.0":  [ "Changed visuals of Rogue Cavern. Added almost full Russian translation." ],
 		"2.2.1":  [ "HotA-related bug fix" ],
