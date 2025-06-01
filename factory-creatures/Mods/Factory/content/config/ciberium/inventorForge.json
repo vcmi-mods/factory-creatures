@@ -17,7 +17,8 @@
 ///						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava", "wasteland"] 
 					},
 				},
-				"onGuardedMessage" : 119,
+				"name" : "Machinery Forge",
+				"onGuardedMessage" : 32,
 				"onVisitedMessage" : 33,
 				"sounds": {
 					"ambient": ["LOOPARTIF.wav"]
