@@ -6,7 +6,7 @@
 
                 "templates" : {
                     "default" : {
-                        "animation" : "factory/map/dwellings/AVG2half",
+                        "animation" : "hota/factory/mapObjects/dwellings/AVG2half",
                         "mask" : ["VVV","VVV","VAB" ]
 					}
 				}
