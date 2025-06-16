@@ -1,7 +1,7 @@
 {
     "core:rogue" : {
 		"graphics" : {
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [ "VV", "VA"]
 		}
 	}
 }
