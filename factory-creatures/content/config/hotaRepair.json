@@ -48,14 +48,13 @@
 				"cost": 12,
 				"range": "0",
 				"power": 30,
-				"aiValue": 70,
+//				"aiValue": 70,
 				"battleEffects":{
 					"heal":{
 						"type":"core:heal",
 						"healLevel":"resurrect",
 						"healPower":"oneBattle",
-						"minFullUnits" : 0,
-						"val" : 30,
+						"minFullUnits" : 0
 					},
 					"cure":{
 						"type":"core:dispel",
@@ -78,8 +77,7 @@
 				"power": 30,
 				"battleEffects":{
 					"heal":{
-						"healPower":"permanent",
-						"val" : 30,
+						"healPower":"permanent"
 					}
 				}
 			},
@@ -88,8 +86,7 @@
 				"power": 50,
 				"battleEffects":{
 					"heal":{
-						"healPower":"permanent",
-						"val" : 50,
+						"healPower":"permanent"
 					}
 				}
 			},
@@ -98,8 +95,7 @@
 				"power": 70,
 				"battleEffects":{
 					"heal":{
-						"healPower":"permanent",
-						"val" : 70,
+						"healPower":"permanent"
 					}
 				}
 			}

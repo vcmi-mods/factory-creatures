@@ -63,13 +63,13 @@
 			"repair" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.hotaRepair",
+				"subtype" : "hotaRepair",
 				"val" : 2
 			},
 			"castLength" :
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.hotaRepair",
+				"subtype" : "hotaRepair",
 				"val" : 10
 			},
 			"spellpoints" :
@@ -85,7 +85,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
@@ -93,7 +93,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
@@ -117,7 +117,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.bloodlust"
+					"subtype" : "bloodlust"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},

@@ -50,7 +50,7 @@
 			"bonuses" : {
 				"landMine" : {
 					"type" : "SPECIAL_SPELL_LEV",
-					"subtype" : "spell.landMine",
+					"subtype" : "landMine",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
 				}

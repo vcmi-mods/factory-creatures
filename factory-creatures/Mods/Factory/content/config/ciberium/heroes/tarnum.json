@@ -48,12 +48,12 @@
 			"bonuses" : {
 				"forgePowers" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"val" : 10,
 					"limiters" : [
     						{
     						    "type" : "HAS_ANOTHER_BONUS_LIMITER",
-        					    "parameters" : [ "NON_LIVING" ]
+        					    "bonusType" :  "NON_LIVING" 
     						}
 					]
 				}

@@ -60,7 +60,7 @@
 			"magicResistance" :
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"val" : 30
 			},
 			"nonliving" :
@@ -78,7 +78,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
@@ -86,7 +86,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
@@ -110,7 +110,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY", 
-					"subtype" : "spell.dispelHelpful"
+					"subtype" : "dispelHelpful"
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
 			},

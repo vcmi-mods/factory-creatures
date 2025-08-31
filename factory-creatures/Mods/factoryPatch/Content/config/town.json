@@ -9,7 +9,7 @@
 							"type" : "OPENING_BATTLE_SPELL",
 							"val" : 3,
 							"subtype" : "hota.factory:teslaLightning",
-							"propagator" : "PLAYER_PROPAGATOR",
+							"propagator" : "PLAYER",
 						}
 					]
 				}

@@ -50,7 +50,7 @@
 			"bonuses" : {
 				"bolt" : {
 					"val" : 3,
-					"subtype" : "spell.lightningBolt",
+					"subtype" : "lightningBolt",
 					"type" : "SPECIFIC_SPELL_DAMAGE",
 					"propagationUpdater" : "TIMES_HERO_LEVEL",
 					"updater" : "TIMES_STACK_LEVEL",

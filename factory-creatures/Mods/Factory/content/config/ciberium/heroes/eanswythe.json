@@ -50,7 +50,7 @@
 			"bonuses" : {
 				"weakness" : {
 					"addInfo" : 0,
-					"subtype" : "spell.weakness",
+					"subtype" : "weakness",
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}

@@ -69,13 +69,13 @@
 		   "blindImmunity" : 
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.blind",
+				"subtype" : "blind",
 				"addInfo" : 1
 			},
 			"petrifyImmunity" : 
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.stoneGaze",
+				"subtype" : "stoneGaze",
 				"addInfo" : 1
 			}
 		},
@@ -85,7 +85,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
@@ -93,7 +93,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
@@ -111,7 +111,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY",
-					"subtype" : "spell.deathStare"
+					"subtype" : "deathStare"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, false, true ]
 			},

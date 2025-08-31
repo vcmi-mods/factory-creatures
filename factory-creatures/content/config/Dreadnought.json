@@ -83,7 +83,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -91,7 +91,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -115,7 +115,18 @@
 			{
 				"bonus" :
 				{
-				"type" : "FEAR"
+					"type" : "FEARFUL",
+					"val" : 10,
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"description" : "PLACEHOLDER",
+					"limiters" : [ 
+						"OPPOSITE_SIDE", 
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIVING"
+						}
+					]
 				},
 				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			},

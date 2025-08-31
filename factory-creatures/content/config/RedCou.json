@@ -62,73 +62,73 @@
 			"stoneGazeImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.stoneGaze",
+				"subtype" : "stoneGaze",
 				"addInfo" : 0
 			},
 			"poisonImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.poison",
+				"subtype" : "poison",
 				"addInfo" : 0
 			},
 			"bindImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.bind",
+				"subtype" : "bind",
 				"addInfo" : 0
 			},
 			"diseaseImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.disease",
+				"subtype" : "disease",
 				"addInfo" : 0
 			},
 			"paralyzeImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.paralyze",
+				"subtype" : "paralyze",
 				"addInfo" : 0
 			},
 			"ageImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.age",
+				"subtype" : "age",
 				"addInfo" : 0
 			},
 			"deathCloudImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.deathCloud",
+				"subtype" : "deathCloud",
 				"addInfo" : 0
 			},
 			"thunderboltImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.thunderbolt",
+				"subtype" : "thunderbolt",
 				"addInfo" : 0
 			},
 			"dispelHelpfulImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.dispelHelpful",
+				"subtype" : "dispelHelpful",
 				"addInfo" : 0
 			},
 			"deathStareImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.deathStare",
+				"subtype" : "deathStare",
 				"addInfo" : 0
 			},
 			"acidBreathImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.acidBreath",
+				"subtype" : "acidBreath",
 				"addInfo" : 0
 			},
 			"acidBreathDamageImm" : 
 			{ 
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.acidBreathDamage",
+				"subtype" : "acidBreathDamage",
 				"addInfo" : 0
 			},
 			"king" : 
@@ -145,7 +145,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -153,7 +153,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]

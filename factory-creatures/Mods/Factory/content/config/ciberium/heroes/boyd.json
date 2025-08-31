@@ -51,7 +51,7 @@
 				[
 					{
 						"type": "FACTION_LIMITER",
-						"parameters" : ["factoryUn"]
+						"faction" : "factoryUn"
 					}
 				]
 				}	

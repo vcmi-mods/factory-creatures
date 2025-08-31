@@ -72,7 +72,7 @@
 			"fireball" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.fireball"
+				"subtype" : "fireball"
 			},
 			"canShoot" : { "type" : "SHOOTER" },
 			"lucky" :
@@ -100,7 +100,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
@@ -108,7 +108,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
@@ -147,7 +147,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.goblin"
+					"subtype" : "goblin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -155,7 +155,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.hobgoblin"
+					"subtype" : "hobgoblin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -163,14 +163,17 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer"
+					"subtype" : "slayer"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ]
 			},
 			{
 				"bonus" :
 				{
-					"type" : "FEARLESS"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER",
+					"val" : 0
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
