@@ -6,9 +6,13 @@
 	"licenseURL" : "https://creativecommons.org/licenses/by-nc-sa/4.0/deed",
 	"modType" : "Town",
 	"name" : "Factory HotA Creatures",
-	"version" : "2.3.3",	
+	"version" : "2.3.4",
+	"compatibility" : {
+		"min" : "1.7.0"
+	},	
 	"changelog" : 
 	{
+		"2.3.4":  [ "Update to vcmi-1.7 format" ],
 		"2.3.3":  [ "Factory Patch T1 dwelling fix" ],
 		"2.3.2":  [ "Bank fix" ],
 		"2.3.1":  [ "Translation fix." ],
