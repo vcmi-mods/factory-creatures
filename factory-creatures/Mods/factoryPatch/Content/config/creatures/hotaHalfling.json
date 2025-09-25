@@ -10,6 +10,9 @@
     },
     "faction": "factory",
     "aiValue": 70,
+		"upgrades" : [
+			"halflingGrenadier"
+		],
     "attack": 4,
     "cost": {
       "gold": 40
