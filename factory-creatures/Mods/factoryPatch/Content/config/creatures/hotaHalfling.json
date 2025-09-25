@@ -59,7 +59,10 @@
       "move": "HALFMOVE.wav",
       "shoot": "HALFSHOT.wav",
       "wince": "HALFWNCE.wav"
-    },
+    }
+		"upgrades" : [
+			"halflingGrenadier"
+		],
     "speed": 5,
     "abilities": {
       "canShoot": {
