@@ -80,15 +80,15 @@
 	},
 	"factory-creatures:faGunslinger" :
 	{
-		"description" : "{Gunslinger}\r\n\r\nUnlike the Mechanics and Engineers, former members of Kastore's Project Outpost actually became better on Jadame. The Gunslingers got a rifle and a pistol instead of the old and archaic gun they had used to blend with other Outpost members, and practiced their shooting skills a lot. Though, generations passed and now Gunslingers are humans mainly.\r\n\r\n{gold|Special Abilities : Shoots, Ranged First Retaliation.}"
+		"description" : "{Gunslinger}\r\n\r\nUnlike the Mechanics and Engineers, former members of Kastore's Project Outpost actually became better on Jadame. The Gunslingers got a rifle and a pistol instead of the old and archaic gun they had used to blend with other Outpost members, and practiced their shooting skills a lot.\r\n\r\n{gold|Special Abilities : Shoots, Ranged First Retaliation.}"
   },
 	"factory-creatures:faBounty" :
 	{
-		"description" : "{Bounty Hunter}\r\n\r\nUnlike the Mechanics and Engineers, former members of Kastore's Project Outpost actually became better on Jadame. The Bounty Hunters got a rifle and a pistol instead of the old and archaic gun they had used to blend with other Outpost members, and practiced their shooting skills a lot. Though, generations passed and now Bounty Hunters are humans mainly.\r\n\r\n{gold|Special Abilities : Shoots, Unlimited Ranged First Retaliation.}"
+		"description" : "{Bounty Hunter}\r\n\r\nUnlike the Mechanics and Engineers, former members of Kastore's Project Outpost actually became better on Jadame. The Bounty Hunters got a rifle and a pistol instead of the old and archaic gun they had used to blend with other Outpost members, and practiced their shooting skills a lot.\r\n\r\n{gold|Special Abilities : Shoots, Unlimited Ranged First Retaliation.}"
   },
 	"factory-creatures:faSheriff" :
 	{
-		"description" : "{Sheriff}\r\n\r\nUnlike the Mechanics and Engineers, former members of Kastore's Project Outpost actually became better on Jadame. The Gunslingers got a rifle and a pistol instead of the old and archaic gun they had used to blend with other Outpost members, and practiced their shooting skills a lot. Though, generations passed and now Gunslingers are humans mainly. Sheriffs are the Gunslingers that were once bandits and bounty hunters, but now they are wery well paid by the government and serve the law.\r\n\r\n{gold|Special Abilities : Shoots, Unlimited Ranged First Retaliation.}"
+		"description" : "{Sheriff}\r\n\r\nUnlike the Mechanics and Engineers, former members of Kastore's Project Outpost actually became better on Jadame. The Gunslingers got a rifle and a pistol instead of the old and archaic gun they had used to blend with other Outpost members, and practiced their shooting skills a lot. Sheriffs are the Gunslingers that were once bandits and bounty hunters, but now they are wery well paid by the government and serve the law.\r\n\r\n{gold|Special Abilities : Shoots, Unlimited Ranged First Retaliation.}"
   },
 	"factory-creatures:faCouatl" :
 	{
